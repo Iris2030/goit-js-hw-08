@@ -20,8 +20,9 @@ return items.map(({ preview, original, description }) => {
 }
 galleryMaker(galleryItems);
 
-
 const galleryEl = galleryMaker(galleryItems)
+ 
+ 
 
 const gallery = document.querySelector(".gallery")
  
